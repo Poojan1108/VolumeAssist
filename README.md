@@ -16,13 +16,13 @@
 
 ---
 
-A lightweight Android overlay app designed for OnePlus Nord CE 5G to control volume and power functions when physical buttons are not working.
+A lightweight Android overlay app to control volume and power functions when physical buttons are not working. Perfect for devices with broken hardware buttons.
 
 ## 🎯 Features
 
 - **Collapsed Overlay**: Minimal floating icon that stays out of your way
 - **Expandable Controls**: Tap to expand full control panel
-- **Volume Control**: Increase/decrease volume with buttons or slider
+- **Volume Control**: Increase/decrease volume with hold-to-increment
 - **Visual Feedback**: Real-time volume percentage display
 - **Lock Screen**: Quick screen lock button
 - **Flashlight Toggle**: Built-in flashlight control
@@ -31,14 +31,15 @@ A lightweight Android overlay app designed for OnePlus Nord CE 5G to control vol
 - **Draggable**: Position the collapsed icon anywhere you want
 - **Haptic Feedback**: Gentle vibration on interactions
 - **Auto-Start**: Option to start on boot
+- **Customizable**: Choose colors, transparency, and size
+- **Intro Slides**: First-time user guide
 - **Battery Efficient**: Minimal resource usage
 - **Safe & Sandboxed**: Won't harm your device
 
-## 📱 Optimized For
+## 📱 Requirements
 
-- **Device**: OnePlus Nord CE 5G
-- **OS**: OxygenOS 13 (Android 13)
-- **Screen**: 6.43" AMOLED (1080x2400, 20:9)
+- **OS**: Android 13 (API 33) or higher
+- **Permissions**: Overlay, Notification, Flashlight
 
 ## 🚀 How to Build
 
@@ -161,8 +162,7 @@ VolumeAssist/
 ## 📝 Development Notes
 
 - Developed in VS Code with GitHub Copilot
-- Built specifically for personal use
-- Hardcoded for OnePlus Nord CE 5G display dimensions
+- Built for devices with broken hardware buttons
 - No analytics, ads, or tracking
 - 100% offline functionality
 
@@ -172,7 +172,7 @@ VolumeAssist/
 - [ ] Volume profiles (media, ringtone, alarm)
 - [ ] Screenshot button
 - [ ] Customizable overlay position memory
-- [ ] Theme customization
+- [ ] Multiple theme options
 
 ## 📄 License
 
@@ -184,6 +184,5 @@ Created with assistance from GitHub Copilot in VS Code.
 
 ---
 
-**Made for**: OnePlus Nord CE 5G  
-**Target OS**: OxygenOS 13 (Android 13)  
+**Platform**: Android 13+  
 **Build Date**: October 2025
