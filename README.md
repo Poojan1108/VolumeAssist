@@ -1,5 +1,21 @@
 # VolumeAssist
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-brightgreen" alt="Platform">
+  <img src="https://img.shields.io/badge/API-33%2B-blue" alt="API">
+  <img src="https://img.shields.io/badge/License-Personal-red" alt="License">
+</p>
+
+## 📥 **Download APK**
+
+**🎉 Ready to use! No build required!**
+
+👉 **[Download VolumeAssist v1.0 APK](releases/VolumeAssist-v1.0.apk)** 👈
+
+*Just download, install, and you're good to go!*
+
+---
+
 A lightweight Android overlay app designed for OnePlus Nord CE 5G to control volume and power functions when physical buttons are not working.
 
 ## 🎯 Features
