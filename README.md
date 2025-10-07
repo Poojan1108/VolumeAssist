@@ -71,21 +71,29 @@ A lightweight Android overlay app to control volume and power functions when phy
 ## 🎨 How to Use
 
 1. **First Launch**
-   - Grant overlay permission
+   - View intro slides explaining features
+   - Grant overlay permission when prompted
    - Grant notification permission (Android 13+)
    - Enable auto-start (optional)
-   - Start the service
+   - Start the service from main screen
 
 2. **Daily Use**
    - Small floating icon appears on screen edge
-   - **Tap icon** → Expands control panel
-   - **Adjust volume** → Use +/- buttons or slider
-   - **Lock screen** → Tap lock icon
-   - **Toggle flashlight** → Tap flashlight icon
+   - **Tap icon** → Expands full control panel
+   - **Volume Up/Down** → Press and hold for continuous adjustment
+   - **Lock screen** → Quick lock button
+   - **Toggle flashlight** → Instant flashlight control
    - **Panel auto-collapses** after 3 seconds
    - **Drag icon** to reposition when collapsed
 
-3. **Auto-Hide**
+3. **Customization**
+   - Open settings from main screen
+   - Choose from 5 color themes
+   - Adjust transparency (0-100%)
+   - Change overlay size (50-150%)
+   - Changes apply instantly without restart
+
+4. **Auto-Hide**
    - Overlay automatically hides during:
      - Video playback (YouTube, Netflix, Prime, etc.)
      - Gaming
@@ -137,10 +145,10 @@ VolumeAssist/
 
 ## ⚡ Performance
 
-- **APK Size**: ~2MB
-- **RAM Usage**: <20MB
-- **Battery Impact**: <1% per day
-- **CPU Usage**: <1% when idle
+- **APK Size**: ~12 MB
+- **RAM Usage**: ~25-30 MB
+- **Battery Impact**: Minimal with health check monitoring
+- **CPU Usage**: Near zero when idle
 
 ## 🐛 Troubleshooting
 
@@ -161,28 +169,27 @@ VolumeAssist/
 
 ## 📝 Development Notes
 
-- Developed in VS Code with GitHub Copilot
 - Built for devices with broken hardware buttons
+- Clean, modern Material Design 3 UI
 - No analytics, ads, or tracking
 - 100% offline functionality
+- Open source architecture
 
-## 🔄 Future Enhancements (Optional)
+## 🔄 Future Enhancements
 
 - [ ] Custom gestures (shake to lock, etc.)
 - [ ] Volume profiles (media, ringtone, alarm)
 - [ ] Screenshot button
 - [ ] Customizable overlay position memory
 - [ ] Multiple theme options
+- [ ] Widget support
 
 ## 📄 License
 
-Personal use only. No distribution rights.
-
-## 🙏 Credits
-
-Created with assistance from GitHub Copilot in VS Code.
+This project is for personal use. Feel free to fork and modify for your own needs.
 
 ---
 
 **Platform**: Android 13+  
-**Build Date**: October 2025
+**Version**: 1.0  
+**Release Date**: October 2025
